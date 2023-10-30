@@ -1,0 +1,6 @@
+{
+  "snpm_path" : "/data/nodejs/personal_r/snpm",
+  "story_book_path": "/data/nodejs/personal_r/story_book",
+  "cache_path" : "/data/_local/t2c_cache",
+  "sequelize_password" : ""
+}

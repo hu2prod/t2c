@@ -1,0 +1,98 @@
+.tree_root {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select:none;
+}
+/* TODO move to a separate css */
+pre.tree_text {
+  font-family : monospace;
+  font-size   : 13px;
+  /*reset bootstrap*/
+  padding   : 0px;
+  border    : none;
+  background-color: transparent;
+  /* we have own selection policy*/
+  -moz-user-select  : none;
+  -webkit-user-select : none;
+  -ms-user-select   : none;
+  user-select : none;
+  margin-left : 16.294921875px;
+  z-index   : 2;
+  position  : relative;
+  overflow  : hidden; /* prevent scrollbar */
+  height    : 13px; /* too long string bugfix */
+  line-height : 11px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border-radius: 0px;
+}
+.tree_indent {
+  margin-left : 14.294921875px;
+}
+.tree_node {
+  margin-top  : 0px;
+}
+.tree_fix_expander {
+  font-family : monospace;
+  font-size   : 16px;
+  line-height : 11px;
+  cursor      : pointer;
+  position    : absolute;
+  z-index     : 3;
+  color       : rgba(0, 0, 0, 0.5); /* experimental */
+  display     : inline-block;
+  height      : 13px;
+  overflow    : hidden;
+  width       : 16px;
+  text-align  : center;
+}
+.tree_expander_hide {
+  opacity   : 0;
+}
+.tree_cursor {
+  border-left : 1px solid black;
+  z-index   : 3;
+  height    : 13px;
+}
+.tree_cursor_replace {
+  border    : 1px solid black;
+  width     : 7px;
+  z-index   : 3;
+  height    : 11px;
+}
+.tree_selection {
+  z-index   : -1; /* not quite good solution */
+  height    : 16px;
+  background  : #d9d9d9;
+}
+pre.tree_current_line {
+  background-color:#FFC;
+}
+
+/* METADATA extensions */
+pre.tree_done {
+  background-color:#93C47D;
+}
+.tree_find_path_container {
+  margin-bottom  : 8px;
+}
+.tree_find_path {
+  font-family : monospace;
+  font-size   : 13px;
+  color     : #ccc;
+}
+
+/* same, but without pointer */
+.tree_fix_expander_time {
+  font-family : monospace;
+  font-size   : 16px;
+  line-height : 11px;
+  position    : absolute;
+  z-index     : 3;
+  color       : rgba(0, 0, 0, 0.5); /* experimental */
+  display     : inline-block;
+  height      : 13px;
+  overflow    : hidden;
+  width       : 16px;
+  text-align  : center;
+}

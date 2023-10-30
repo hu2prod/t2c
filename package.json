@@ -1,0 +1,29 @@
+{
+  "name": "t2c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "t2c": "./index.js"
+  },
+  "keywords": [],
+  "author": "vird",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "event_mixin": "github:hu2prod/event_mixin",
+    "fy": "github:hu2prod/fy",
+    "iced-coffee-script": "^108.0.14",
+    "lock_mixin": "github:hu2prod/lock_mixin",
+    "lru": "^3.1.0",
+    "minimist": "^1.2.7",
+    "mkdirp": "^1.0.4",
+    "semver": "^7.3.8",
+    "webcom": "github:hu2prod/webcom",
+    "webcom-client-plugin-base": "github:hu2prod/webcom-client-plugin-base",
+    "webcom-engine-vendor": "github:hu2prod/webcom-engine-vendor"
+  }
+}
