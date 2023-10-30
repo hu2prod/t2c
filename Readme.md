@@ -47,3 +47,4 @@ Never be production-ready
 * Див папку code_bubble
 * Бажано напряму не змінювати файли, а через code_bubble або override (якщо вони працюють, якщо ні, то треба дописати)
 * commit frequently, бо затерти корисні зміни дуже легко
+* tpl/search/meilisearch-linux-amd64 видалений (так як 100+MB)
