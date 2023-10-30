@@ -1,11 +1,11 @@
 # t2c code gnerator
-Кодогенератор був зроблений для персонального використання
-Приклад "хочу backend, frontend, postgres, sequelize, meilisearch, прокинути DB на FE"
+Кодогенератор був зроблений для персонального використання \
+Приклад "хочу backend, frontend, postgres, sequelize, meilisearch, прокинути DB на FE" \
 Замість того, щоб шукати по всім моїм проектам де що я як зробив я просто мерджу конфігурації (дещо схоже на terraform та yeoman)
 
 Використовує
-* https://github.com/vird/snpm
-* https://github.com/vird/story_book
+* https://github.com/hu2prod/snpm
+* https://github.com/hu2prod/story_book
 * https://github.com/hu2prod/webcom
 
 Приклади див в examples
